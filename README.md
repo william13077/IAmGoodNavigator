@@ -4,7 +4,6 @@ This demo allows you to test the navigation performance for 10 episodes each of 
 
 ## Prerequisites
 
-Before running the demo, please follow the [this guide](https://internrobotics.github.io/user_guide/internnav/quick_start/simulation.html) to:
 1. Download the Isaac Simulator.
 
 We use Isaac Sim 4.5.0. Download it from [offical page](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/download.html), which is a zip file. Simply unzip it to a folder (Let's say ISAACSIM_ROOT.).
