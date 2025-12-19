@@ -6,7 +6,23 @@ This demo allows you to test the navigation performance for 10 episodes each of 
 
 Before running the demo, please follow the [this guide](https://internrobotics.github.io/user_guide/internnav/quick_start/simulation.html) to:
 1. Download the Isaac Simulator.
+
+We use Isaac Sim 4.5.0. Download it from [offical page](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/download.html), which is a zip file. Simply unzip it to a folder (Let's say ISAACSIM_ROOT.).
+
 2. Create and set up a conda environment for the simulation.
+```
+conda create -n goodnav python=3.10
+conda activate goodnav
+conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1  pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install pandas
+pip install scipy==1.10.1
+cd ISAACSIM_ROOT
+source setup_conda_env.sh
+```
+
+3. Tested environment
+
+We test the demo on Ubuntu 24 with RTX4090 (Driver Version: 570.195.03     CUDA Version: 12.8 ).
 
 ## Setup
 
