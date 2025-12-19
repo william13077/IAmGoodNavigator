@@ -1,10 +1,8 @@
 #!/bin/bash
 
-# Create demo directory if it doesn't exist
-mkdir -p demo
 
-# Navigate into demo directory
-cd demo
+# Navigate into directory
+cd IAmGoodNavigator
 
 # Download demo_scene.zip
 echo "Downloading demo_scene.zip..."
@@ -15,6 +13,6 @@ echo "Unzipping files..."
 unzip -o demo_scene.zip
 
 # Optional: clean up zip files
-rm demo_scene.zip
+# rm demo_scene.zip
 
 echo "Done!"

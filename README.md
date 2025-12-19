@@ -4,20 +4,19 @@ This demo allows you to test the navigation performance for 10 episodes each of 
 
 ## Prerequisites
 
-Before running the demo, please follow the [official guide](https://internrobotics.github.io/user_guide/internnav/quick_start/simulation.html) to:
+Before running the demo, please follow the [this guide](https://internrobotics.github.io/user_guide/internnav/quick_start/simulation.html) to:
 1. Download the Isaac Simulator.
 2. Create and set up a conda environment for the simulation.
 
 ## Setup
 
-1. From the project root, download the necessary scene files and code:
+Download the necessary scene files and code:
    ```bash
+   git clone https://github.com/william13077/IAmGoodNavigator
+   cd IAmGoodNavigator
    bash download.sh
    ```
-2. Navigate to the demo directory:
-   ```bash
-   cd demo
-   ```
+
 
 ## How to Run
 
