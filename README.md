@@ -37,14 +37,14 @@ Download the necessary scene files and code:
 
 To run a specific demo episode, use the following command:
 ```bash
-python demo.py --task <task_type> --index <episode_index>
+python demo.py --task <task_type> --index <episode_index> --work_dir path_store_result
 ```
 *   `--task`: Choose either `fine` or `coarse`.
 *   `--index`: Choose an index from `0` to `9`.
 
 Example:
 ```bash
-python demo.py --task fine --index 0
+python demo.py --task fine --index 0 --work_dir ./myresults
 ```
 
 The script will load the specific scene USD file and data based on the provided task and index.

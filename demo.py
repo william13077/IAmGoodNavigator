@@ -510,6 +510,7 @@ if __name__ == '__main__':
     }
     
     output_dir = args.work_dir
+    os.makedirs(output_dir, exist_ok=True)
     print(f"Instruction: {instruction_text}")
     print(" >>> PRESS [ENTER] TO FINISH RECORDING <<<")
     
