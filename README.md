@@ -1,5 +1,9 @@
 # Isaac Sim Navigation Demo
 
+## Demo Video
+
+<video src="assets/screen_recording.mp4" controls width="100%"></video>
+
 This demo allows you to test the navigation performance for 10 episodes each of `fine_grained` and `coarse_grained` tasks.
 
 ## Prerequisites
